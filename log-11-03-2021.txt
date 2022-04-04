@@ -1,0 +1,94 @@
+03/11/2021 05:07:50 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 05:07:50 - 331 Please specify the password.
+
+03/11/2021 05:07:50 - 230 Login successful.
+
+03/11/2021 05:07:50 - 150 File status okay; about to open data connection.
+
+03/11/2021 05:11:01 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 05:11:01 - 331 Please specify the password.
+
+03/11/2021 05:11:01 - 230 Login successful.
+
+03/11/2021 05:11:01 - 150 File status okay; about to open data connection.
+
+03/11/2021 05:13:20 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 05:13:20 - 331 Please specify the password.
+
+03/11/2021 05:13:20 - 230 Login successful.
+
+03/11/2021 05:13:20 - 150 File status okay; about to open data connection.
+
+03/11/2021 05:13:20 ERROR - [Errno 9] Bad file descriptor
+03/11/2021 15:25:06 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:25:50 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:25:50 - 331 Please specify the password.
+
+03/11/2021 15:25:50 - 230 Login successful.
+
+03/11/2021 15:35:31 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:35:31 - 331 Please specify the password.
+
+03/11/2021 15:35:31 - 230 Login successful.
+
+03/11/2021 15:35:31 - 150 File status okay; about to open data connection.
+
+03/11/2021 15:41:54 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:41:54 - 331 Please specify the password.
+
+03/11/2021 15:41:54 - 230 Login successful.
+
+03/11/2021 15:41:54 - 250 change of directory completed
+
+03/11/2021 15:46:29 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:46:29 - 331 Please specify the password.
+
+03/11/2021 15:46:29 - 230 Login successful.
+
+03/11/2021 15:46:29 - 250 change of directory completed
+
+03/11/2021 15:46:29 - 250 change of directory completed
+
+03/11/2021 15:46:29 - 150 File status okay; about to open data connection.
+
+03/11/2021 15:46:29 - 250 change of directory completed
+
+03/11/2021 15:46:29 - 150 File status okay; about to open data connection.
+
+03/11/2021 15:46:29 - 550 Failed to change directory.
+
+03/11/2021 15:46:29 - 550 Failed to change directory.
+
+03/11/2021 15:46:29 - 550 Failed to change directory.
+
+03/11/2021 15:46:29 - 150 File status okay; about to open data connection.
+
+03/11/2021 15:55:13 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:55:13 - 331 Please specify the password.
+
+03/11/2021 15:55:13 - 230 Login successful.
+
+03/11/2021 15:55:55 - 220 Welocme to the HW3 FTPserver.
+
+03/11/2021 15:55:55 - 331 Please specify the password.
+
+03/11/2021 15:55:55 - 230 Login successful.
+
+03/11/2021 15:55:55 - 550 Failed to change directory.
+
+03/11/2021 15:55:55 - 250 change of directory completed
+
+03/11/2021 15:55:55 - 150 File status okay; about to open data connection.
+
+03/11/2021 15:55:55 - 250 change of directory completed
+
+03/11/2021 15:55:55 - 250 change of directory completed

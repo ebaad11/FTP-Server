@@ -1,0 +1,57 @@
+1. Do you think that someone could hack into your FTP server? Why or why not? Through
+what methods?
+
+    Yes hacking into the server is extreamly easy. Anyone can use a wirehshark to see the traffic 
+    that inclues paswords and user names that can be used to get into the server.The reason ftp is quite vulnerable to attackis because there is no application or network 
+   layer security. If someone were to intercept a message (with a man in the middle attack),they could easily see the communication being sent.
+   This can include sensitive information such as account and passowrds.Anthor way will be impersonate the server when a client attempts an ftp connection,
+   To fix these issues, the programmer could implement a security sublayer such as TLS over FTP. 
+   With the data now being encrypted, a hacker couldn't see the data there can also be a fuctionality in the 
+   application layer that deals with token Auth.
+
+
+
+
+
+
+2. EXTRA CREDIT: Critique how FTP solves the problem of file transfer – what is good?
+What is bad? What is weird?
+
+good
+    state strucuture allows the client and server to be in sync, also prevents
+    attacks through states if you are not in a certain state(authenticated) you can't access the data make it a little resilent to 
+    blunt attacks
+    Any FTP server following the protocal can communicate to any FTP client makes developers jobs easy.
+    Simple commnads he command responses are well defined and aren't too complicated
+    to understand/implement. Their format is clear their format is clear, concise, and to the point. There's no superfluous information included,
+    which makes the communications very efficient.
+
+bad :
+    bad states--The state stuructue can occasionally be negative and it is very hard to get out of a bad state if all teh commnads are 
+    not impleneted.Brittle there is not much flexibilty and a rigity to how the commnads are and can can requie exact sequences top work.
+    TCP--heavy reliation on TCP, while reliable packet retrival is not the job an application layer protocal there should be some 
+    rroom to implenet new protocals such as QUIC to make the transactions smoother. Alsothe client has no way of updating the server on its state this leads to the interactions between the client being broken sometimes alsoteh client is 
+    always having to initiate conversations.
+    
+
+Wired:
+    Dual connections hands down. It makes sense but where the client can only send communications not reposes it makes it harder 
+    to remian in sync. Security wise having two connections makes it more vulneerable to attack when the data is going through the datasocket 
+
+
+
+
+
+
+3. EXTRA CREDIT: How hard would it be to make FTP use one channel (both command and
+data over the same socket) instead of two? 
+
+    One channel 
+    Adding a sixth reposne type 6xx that handles the data coming in to the client.
+    the second digit 6(X)X could tell which way the data is flowing 1 server to client and may to for the stor and 3 4 for write command maybe adding a futher message bit 
+    5 on next to reciece.Although there will be more messages sent it will save the need to have multiple connections
+    Bulding the reduncdcey with the third bit (651, 652) to make sure all the packets are recieved in order and we can add more 
+    functionality on realiabilty that TCP offers.
+    This will save alot of resources as the secone connection doesnt have to be established.
+
+
